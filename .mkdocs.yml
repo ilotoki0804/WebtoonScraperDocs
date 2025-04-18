@@ -1,0 +1,49 @@
+site_name: WebtoonScraper
+site_description: Download webtoons with ease.
+site_url: !ENV READTHEDOCS_CANONICAL_URL
+
+theme:
+    name: 'material'
+    palette:
+      - scheme: 'default'
+        media: '(prefers-color-scheme: light)'
+        toggle:
+          icon: 'material/lightbulb'
+          name: "Switch to dark mode"
+      - scheme: 'slate'
+        media: '(prefers-color-scheme: dark)'
+        primary: 'blue'
+        toggle:
+          icon: 'material/lightbulb-outline'
+          name: 'Switch to light mode'
+
+repo_name: ilotoki0804/WebtoonScraper
+repo_url: https://github.com/ilotoki0804/WebtoonScraper/
+edit_uri: "ko/latest/"
+
+nav:
+    # - 튜토리얼: 'ko/tutorial.md'
+    - 사용 가이드:
+      - 설치: 'ko/installing.md'
+      - CLI로 다운로드: 'ko/downloading-cli.md'
+      - 앱으로 다운로드: 'ko/downloading-app.md'
+      - 플랫폼: 'ko/platforms.md'
+      - 쿠키: 'ko/cookie.md'
+    - 추가 기능:
+      - 다운로드 범위: 'ko/download-range.md'
+      - 회차 병합하기: 'ko/merging.md'
+      - 이미지 결합하기: 'ko/concatenating.md'
+      - 웹툰 감상하기: 'ko/how-to-view.md'
+    - 기타:
+      - English README: 'README-en.md'
+      - 저작권과 책임: 'ko/copyright.md'
+      - 릴리즈 노트: 'ko/releases.md'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      css_class: highlight
+  - mkautodoc
+
+# extra_css:
+#     - css/custom.css
