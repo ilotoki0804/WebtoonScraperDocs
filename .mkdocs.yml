@@ -17,8 +17,8 @@ theme:
           icon: 'material/lightbulb-outline'
           name: 'Switch to light mode'
 
-repo_name: ilotoki0804/WebtoonScraperDocs
-repo_url: https://github.com/ilotoki0804/WebtoonScraperDocs/
+repo_name: WebtoonScraper
+repo_url: https://github.com/ilotoki0804/WebtoonScraper/
 edit_uri: "ko/latest/"
 
 nav:
