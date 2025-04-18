@@ -40,19 +40,19 @@ WebtoonScraper는 다양한 웹툰 플랫폼에서 다운로드를 제공합니�
 
 네이버 웹툰 앱에서 `공유하기`를 통해 링크를 복사할 경우 `naver.me` 단축 URL로 공유되는데, 이 링크로도 다운로드가 가능합니다.
 
-성인 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./04-cookie.md)를 참고해 쿠키를 복사해 적용하세요.
+성인 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
 유료 웹툰과 매일+ 웹툰의 경우 다운로드가 불가능합니다.
 
-네이버 웹툰의 성인 웹툰을 다운로드받기 위해선 쿠키가 필요합니다. 쿠키를 얻는 방법은 [cookie 문서](./04-cookie.md)를 확인하세요.
+네이버 웹툰의 성인 웹툰을 다운로드받기 위해선 쿠키가 필요합니다. 쿠키를 얻는 방법은 [cookie 문서](./cookie.md)를 확인하세요.
 
 ### 네이버 웹툰의 추가 인자
 
-다음은 네이버 웹툰에서 사용할 수 있는 옵션들입니다. 추가 인자에 대한 설명은 [이 문서](02-downloading-cli.md#--option-인자)를 확인하세요.
+다음은 네이버 웹툰에서 사용할 수 있는 옵션들입니다. 추가 인자에 대한 설명은 [이 문서](downloading-cli.md#--option-인자)를 확인하세요.
 
 * `download-comments` (기본값 false): 해당 회차의 베스트 댓글을 불러옵니다.
 * `download-all-comments` (기본값 false): 해당 회차의 모든 댓글을 '시간순으로' 불러옵니다. 이 기능은 댓글이 많을 경우 다운로드에 오랜 시간이 걸릴 수 있고 추천순으로 정렬할 수 *없으니* 주의하세요. `download-comments`와 같이 설정될 경우 `download-all-comments`가 우선권을 받아 모든 댓글을 다운로드합니다.
-* `download-audio` (기본값 true): 해당 회차에 bgm이 있을 경우 다운로드합니다. bgm은 [webtoon.html 뷰어](93-how-to-view.md)에서 틀 수 있습니다. 기본으로 켜져 있기 때문에 일반적으로는 설정할 필요가 없습니다.
+* `download-audio` (기본값 true): 해당 회차에 bgm이 있을 경우 다운로드합니다. bgm은 [webtoon.html 뷰어](how-to-view.md)에서 틀 수 있습니다. 기본으로 켜져 있기 때문에 일반적으로는 설정할 필요가 없습니다.
 
 이 옵션들은 다음과 같이 사용할 수 있습니다.
 
@@ -76,7 +76,7 @@ webtoon download --option download-comments="true" --option download-all-comment
 
 [웹사이트](https://www.lezhin.com/ko) | 예시 URL: <https://www.lezhin.com/ko/comic/dr_hearthstone>
 
-레진코믹스 성인 웹툰을 다운로드받기 위해선 쿠키가 필요합니다. 쿠키를 얻는 방법은 [쿠키 문서](./04-cookie.md)를 확인하세요.
+레진코믹스 성인 웹툰을 다운로드받기 위해선 쿠키가 필요합니다. 쿠키를 얻는 방법은 [쿠키 문서](./cookie.md)를 확인하세요.
 
 한국어 레진코믹스(https://www.lezhin.com/ko)뿐 아니라 영어(https://www.lezhinus.com/en)와 일본어(https://www.lezhin.jp/ja) 레진코믹스도 다운로드를 지원합니다. 다운로드 방식은 모두 동일합니다.
 
@@ -85,7 +85,7 @@ webtoon download --option download-comments="true" --option download-all-comment
 다운로드 방식은 다음과 같습니다.
 
 우선 아래 [레진코믹스 bearer](#레진코믹스-bearer) 단락에서 bearer를 찾아서 복사해 저장해 놓습니다.
-그런 다음 *성인 웹툰의 경우* [cookie 문서](./04-cookie.md)를 참고해 쿠키도 복사해 놓습니다.
+그런 다음 *성인 웹툰의 경우* [cookie 문서](./cookie.md)를 참고해 쿠키도 복사해 놓습니다.
 
 (앱의 경우) 앱에서 웹툰의 URL을 붙여넣으면 아래 '플랫폼 추가 설정' 칸에 bearer와 쿠키 입력창이 드러납니다. 앞에서 복사한 값을 붙여넣고 (성인 웹툰이 아닌 경우 쿠키는 입력할 필요가 없습니다.) 다운로드 버튼을 누릅니다.
 
@@ -232,4 +232,4 @@ bearer를 얻는 방법은 다음과 같습니다.
 
 [웹사이트](https://toptoon.com/) | 예시 URL: <https://toptoon.com/comic/ep_list/Brain_Breaker>
 
-웹툰 다운로드 시 쿠키를 적용시켜야 합니다. [쿠키 문서](./04-cookie.md)를 참고해 쿠키를 복사해 적용하세요.
+웹툰 다운로드 시 쿠키를 적용시켜야 합니다. [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.

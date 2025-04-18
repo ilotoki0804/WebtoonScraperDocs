@@ -41,13 +41,13 @@ webtoon download --cookie "..." --option download-comments="true" --option downl
 * `--cookie "..."`: [쿠키 값](#쿠키)을 `...`으로 설정
 * `--option download-comments="true"`: `download-comments`라는 옵션의 값을 `true`로 설정합니다.
 * `--option download-audio="false"`: `download-audio`라는 옵션의 값을 `false`로 설정합니다.
-* `-r "~3"`: [다운로드 범위](90-download-range.md#적용)를 적용시켜  3화까지만 다운로드하도록 설정합니다.
+* `-r "~3"`: [다운로드 범위](download-range.md#적용)를 적용시켜  3화까지만 다운로드하도록 설정합니다.
 * `"https://..."`: 다운로드할 웹툰의 URL입니다.
 
 ## 쿠키
 
 쿠키는 일종의 인증서로서, 로그인이 요구되거나 성인 인증이 필요한 경우 필요합니다.
-쿠키에 대한 자세한 설명은 [별도의 문서](04-cookie.md)를 참고하세요.
+쿠키에 대한 자세한 설명은 [별도의 문서](cookie.md)를 참고하세요.
 
 ## `--option` 인자
 
@@ -60,7 +60,7 @@ webtoon download --cookie "..." --option download-comments="true" --option downl
 webtoon download --option bearer="Bearer ..." "<URL>"
 ```
 
-사용 가능한 옵션들은 각 웹툰 사이트마다 다를 수 있으며, 자세한 내용은 [해당 사이트의 문서](10-platforms.md)를 참고하세요.
+사용 가능한 옵션들은 각 웹툰 사이트마다 다를 수 있으며, 자세한 내용은 [해당 사이트의 문서](platforms.md)를 참고하세요.
 
 `--option` 인자를 여러 개 사용하고 싶은 경우에는 사용할 `--option` 인자들을 그냥 나열하면 됩니다.
 
@@ -84,7 +84,7 @@ webtoon download "https://<다운로드받을 웹툰 URL 1>" "https://<다운로
 ### 디렉토리 이름 설정
 
 디렉토리의 이름이 설정되는 방식을 변경할 수 있습니다.
-자세한 내용은 [이 문서](./11-directory-name.md)를 참고하세요.
+자세한 내용은 [이 문서](./directory-name.md)를 참고하세요.
 
 ## 다시 다운로드하기
 

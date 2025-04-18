@@ -4,7 +4,7 @@
 
 쉽고 빠르게 많은 웹사이트에서 웹툰을 다운로드받을 있는 프로그램입니다.
 
-저작권과 책임에 대한 내용을 더욱 자세히 알고 싶다면 [이 문서](./mkdocs/94-copyright.md)를 참고해 주세요.
+저작권과 책임에 대한 내용을 더욱 자세히 알고 싶다면 [이 문서](./copyright.md)를 참고해 주세요.
 
 * [WebtoonScraper](#webtoonscraper)
     * [이용 방법](#이용-방법)
@@ -29,7 +29,7 @@ pip install -U WebtoonScraper[full]
 webtoon download "https://comic.naver.com/webtoon/list?titleId=819217"
 ```
 
-다른 기능들과 설정에 대해서는 **[사용 방법](./mkdocs/02-downloading-cli.md)** 문서를 참고해 주세요.
+다른 기능들과 설정에 대해서는 **[사용 방법](./downloading-cli.md)** 문서를 참고해 주세요.
 
 ## 후원하기
 
@@ -52,7 +52,7 @@ WebtoonScraper 프로젝트는 후원으로 운영됩니다.
 WebtoonScraper는 파이썬이나 pip 설치 없이 바로 앱으로 사용할 수 있으며,
 앱을 이용하면 CLI를 사용하는 방법을 알 필요 없이 더욱 간편하게 사용할 수 있습니다.
 
-**다운로드와 사용 방법은 [앱 사용 가이드](./mkdocs/03-downloading-app.md)를 참고하세요.**
+**다운로드와 사용 방법은 [앱 사용 가이드](./downloading-app.md)를 참고하세요.**
 
 네이버 웹툰과 레진코믹스와 더불어 카카오 웹툰, 카카오페이지, webtoons.com, 버프툰, 네이버 포스트, 네이버 게임, 네이버 블로그, 티스토리, 투믹스를 추가로 다운로드받을 수 있습니다.
 
@@ -67,11 +67,11 @@ WebtoonScraper는 파이썬이나 pip 설치 없이 바로 앱으로 사용할 �
 * 네이버 웹툰과 레진코믹스와 더불어 카카오 웹툰, 카카오페이지, webtoons.com, 버프툰, 네이버 포스트, 네이버 게임, 네이버 블로그, 티스토리, 투믹스를 추가로 다운로드받을 수 있습니다.
 * 실행 파일을 이용하면 여러 웹툰을 다운로드받을 때 훨씬 빠르게 다운로드가 가능합니다.
 
-**다운로드와 사용 방법은 [실행 파일 사용 가이드](./mkdocs/02-downloading-cli.md)를 참고하세요.**
+**다운로드와 사용 방법은 [실행 파일 사용 가이드](./downloading-cli.md)를 참고하세요.**
 
 ## 릴리즈 노트
 
-[릴리즈 노트 문서](./mkdocs/95-releases.md)를 참고하세요.
+[릴리즈 노트 문서](./releases.md)를 참고하세요.
 
 ## 이용 방법
 
