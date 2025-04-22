@@ -208,10 +208,6 @@ bearer를 얻는 방법은 다음과 같습니다.
 
 `EMANBAE_BEARER` 환경 변수를 설정할 경우 해당 값을 이용합니다.
 
-## 네이버 포스트
-
-[웹사이트](https://m.post.naver.com/feed.naver) | 예시 URL: <https://m.post.naver.com/my/series/detail.naver?seriesNo=648552&memberNo=3395565>
-
 ## 네이버 게임
 
 [웹사이트](https://game.naver.com/original_series) | 예시 URL: <https://game.naver.com/original_series/59>
