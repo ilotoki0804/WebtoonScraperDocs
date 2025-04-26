@@ -15,6 +15,7 @@ WebtoonScraper는 다양한 웹툰 플랫폼에서 다운로드를 제공합니�
 | **webtoons.com** | ✅ | ✅ | ❌ |
 | **리디북스 웹툰** | ✅ | ✅ | ✅ |
 | **탑툰** | ✅ | ✅ | ❓ |
+| **봄툰** | ✅ | ✅ | ✅ |
 | **투믹스** | ✅ | ✅ | ✅ |
 | **버프툰** | ✅ | - | ✅ |
 | **이만배** | ✅ | - | ✅ |
@@ -158,6 +159,35 @@ bearer를 얻는 방법은 다음과 같습니다.
 [웹사이트](https://toptoon.com/) | 예시 URL: <https://toptoon.com/comic/ep_list/Brain_Breaker>
 
 웹툰 다운로드 시 쿠키를 적용시켜야 합니다. [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
+
+## 봄툰
+
+**유·무료·성인 웹툰 다운로드 가능, 쿠키 필요, 성인 웹툰의 경우 bearer 필요**
+
+[웹사이트](https://www.toomics.com/) | 예시 URL: <https://www.bomtoon.com/detail/geum_bok_i>
+
+봄툰에서 웹툰을 다운로드받으려면 쿠키가 필요합니다. 쿠키를 얻는 방법은 [이 문서](./cookie.md)를 참고하세요.
+
+성인 웹툰의 경우 별도로 bearer가 필요합니다. bearer를 얻는 방법은 아래의 `봄툰 bearer` 문단에서 확인하세요.
+
+### 봄툰 bearer
+
+봄툰는 자신의 계정의 데이터를 사용하기 위해선 bearer를 얻어 앱이나 포터블에서 사용해야 합니다.
+bearer를 얻는 방법은 다음과 같습니다.
+
+1. [이 링크](https://htmlpreview.github.io/?https://github.com/ilotoki0804/WebtoonScraperDocs/blob/main/docs/res/get-bearer-bomtoon.html)로 가세요(아직은 가지 마시고 설명을 좀 더 들으세요).
+1. 해당 웹페이지에 링크가 하나 있을 텐데, 그 링크를 북마크바로 드래그하세요. 만약 북마크바가 보이지 않을 시 `ctrl+shift+B`를 이용해 보이게 하세요. 그러면 북마크에 `get bearer`라는 이름의 북마크가 하나 생성이 될 것입니다.
+1. [이 링크](https://www.lezhin.com/ko/help#?faq=common&notice=serial)(메인 페이지에서는 사용할 수 없으니 꼭 이 링크로 가세요!)로 간 뒤 **로그인하세요**.
+1. 해당 북마크를 클릭하세요.
+1. 그러면 `here is the bearer string`이라는 안내 메시지와 함께 아래에 bearer가 뜰 것입니다. 복사하세요.
+
+`BOMTOON_BEARER` 환경 변수를 설정할 경우 해당 값을 이용합니다.
+
+### 봄툰의 추가 설정
+
+이 추가 설정은 앱에서는 하단에 '플랫폼 추가 설정'란에 나타납니다.
+
+* `bearer` (**성인 웹툰 다운로드시 필요**): bearer 값을 입력합니다.
 
 ## 투믹스
 
