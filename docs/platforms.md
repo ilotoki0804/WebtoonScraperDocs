@@ -175,7 +175,7 @@ bearer를 얻는 방법은 다음과 같습니다.
 봄툰는 자신의 계정의 데이터를 사용하기 위해선 bearer를 얻어 앱이나 포터블에서 사용해야 합니다.
 bearer를 얻는 방법은 다음과 같습니다.
 
-1. [이 링크](https://htmlpreview.github.io/?https://github.com/ilotoki0804/WebtoonScraperDocs/blob/main/docs/res/get-bearer-bomtoon.html)로 가세요(아직은 가지 마시고 설명을 좀 더 들으세요).
+1. [이 링크](https://htmlpreview.github.io/?https://github.com/ilotoki0804/WebtoonScraperDocs/blob/main/docs/res/get-bearer.html)로 가세요(아직은 가지 마시고 설명을 좀 더 들으세요).
 1. 해당 웹페이지에 링크가 하나 있을 텐데, 그 링크를 북마크바로 드래그하세요. 만약 북마크바가 보이지 않을 시 `ctrl+shift+B`를 이용해 보이게 하세요. 그러면 북마크에 `get bearer`라는 이름의 북마크가 하나 생성이 될 것입니다.
 1. [이 링크](https://www.lezhin.com/ko/help#?faq=common&notice=serial)(메인 페이지에서는 사용할 수 없으니 꼭 이 링크로 가세요!)로 간 뒤 **로그인하세요**.
 1. 해당 북마크를 클릭하세요.
@@ -230,7 +230,7 @@ webtoon download --option bearer="<bearer 값>" "<웹툰 URL>"
 이만배는 자신의 계정의 데이터를 사용하기 위해선 bearer를 얻어 앱이나 포터블에서 사용해야 합니다.
 bearer를 얻는 방법은 다음과 같습니다.
 
-1. [이 링크](https://htmlpreview.github.io/?https://github.com/ilotoki0804/WebtoonScraperDocs/blob/main/docs/res/get-bearer-emanbae.html)로 가세요(아직은 가지 마시고 설명을 좀 더 들으세요).
+1. [이 링크](https://htmlpreview.github.io/?https://github.com/ilotoki0804/WebtoonScraperDocs/blob/main/docs/res/get-bearer.html)로 가세요(아직은 가지 마시고 설명을 좀 더 들으세요).
 1. 해당 웹페이지에 링크가 하나 있을 텐데, 그 링크를 북마크바로 드래그하세요. 만약 북마크바가 보이지 않을 시 `ctrl+shift+B`를 이용해 보이게 하세요. 그러면 북마크에 `get bearer`라는 이름의 북마크가 하나 생성이 될 것입니다.
 1. [이만배 홈페이지](https://www.emanbae.com/)(메인 페이지에서는 사용할 수 없으니 꼭 이 링크로 가세요!)로 간 뒤 **로그인하세요**.
 1. 해당 북마크를 클릭하세요.
