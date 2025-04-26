@@ -49,7 +49,7 @@ By donating on [Patreon](https://www.patreon.com/ilotoki0804), you can support t
 
 ## Use as an app
 
-[<img src="https://raw.githubusercontent.com/ilotoki0804/WebtoonScraper/main/images/gui.png" width="70%">](https://www.patreon.com/ilotoki0804)
+[<img src="https://raw.githubusercontent.com/ilotoki0804/WebtoonScraperDocs/main/docs/image/gui.png" width="70%">](https://www.patreon.com/ilotoki0804)
 
 WebtoonScraper is available as an app out of the box, with no python or pip installation required,
 You don't need to know how to use the CLI to use the app.
