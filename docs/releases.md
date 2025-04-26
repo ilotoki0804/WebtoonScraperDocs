@@ -1,5 +1,10 @@
 # Release Note
 
+## 5.6.0 (2025-04-26)
+
+* App: 봄툰 지원 추가
+* App: ([2025년 4월 30일 네이버 포스트 서비스 종료](https://post.naver.com/postfo/noticePage.naver))로 인해 네이버 포스트 지원 중단
+
 ## 5.5.1 (2025-04-22)
 
 * App: 투믹스 확장 지원
