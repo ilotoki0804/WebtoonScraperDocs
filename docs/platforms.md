@@ -19,6 +19,8 @@ WebtoonScraper는 다양한 웹툰 플랫폼에서 다운로드를 제공합니�
 | **투믹스** | ✅ | ✅ | ✅ |
 | **버프툰** | ✅ | - | ✅ |
 | **이만배** | ✅ | - | ✅ |
+| **투비컨티뉴드** | ✅ | ✅ | ❓ |
+| **재담쇼츠** | ✅ | - | ❓ |
 | **네이버 게임** | ✅ | - | - |
 | **네이버 블로그** | ✅ | - | - |
 | **티스토리** | ✅ | - | - |
@@ -140,6 +142,8 @@ bearer를 얻는 방법은 다음과 같습니다.
 
 [웹사이트](https://page.kakao.com/) | 예시 URL: <https://page.kakao.com/content/53397318>
 
+유료 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
+
 ## `webtoons.com`
 
 **무료·성인 웹툰 다운로드 가능, 쿠키 필요 없음**
@@ -151,6 +155,8 @@ bearer를 얻는 방법은 다음과 같습니다.
 **유·무료·성인 웹툰 다운로드 가능, 유료·성인 웹툰의 경우 쿠키 필요**
 
 [웹사이트](https://ridibooks.com/webtoon/recommendation) | 예시 URL: <https://ridibooks.com/books/3498016129>
+
+유료·성인 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
 ## 탑툰
 
@@ -195,11 +201,15 @@ bearer를 얻는 방법은 다음과 같습니다.
 
 [웹사이트](https://www.toomics.com/) | 예시 URL: <https://www.toomics.com/webtoon/episode/toon/8545>
 
+성인 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
+
 ## 버프툰
 
 **유·무료 웹툰 다운로드 가능, 쿠키 필요**
 
 [웹사이트](https://bufftoon.plaync.com/) | 예시 URL: <https://bufftoon.plaync.com/series/1007888>
+
+쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
 ## 이만배
 
@@ -237,6 +247,22 @@ bearer를 얻는 방법은 다음과 같습니다.
 1. 그러면 `here is the bearer string`이라는 안내 메시지와 함께 아래에 bearer가 뜰 것입니다. 복사하세요.
 
 `EMANBAE_BEARER` 환경 변수를 설정할 경우 해당 값을 이용합니다.
+
+## 투비컨티뉴드
+
+**무료·성인 웹툰 다운로드 가능, 성인 웹툰의 경우 쿠키 필요**
+
+[웹사이트](https://bufftoon.plaync.com/) | 예시 URL: <https://bufftoon.plaync.com/series/1007888>
+
+성인 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
+
+## 재담쇼츠
+
+**무료 웹툰 다운로드 가능, 쿠키 필요**
+
+[웹사이트](https://bufftoon.plaync.com/) | 예시 URL: <https://bufftoon.plaync.com/series/1007888>
+
+쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
 ## 네이버 게임
 
