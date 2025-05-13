@@ -254,7 +254,7 @@ bearer를 얻는 방법은 다음과 같습니다.
 
 **무료·성인 웹툰 다운로드 가능, 성인 웹툰의 경우 쿠키 필요**
 
-[웹사이트](https://bufftoon.plaync.com/) | 예시 URL: <https://bufftoon.plaync.com/series/1007888>
+[웹사이트](https://tobe.aladin.co.kr/) | 예시 URL: <https://tobe.aladin.co.kr/t/underground>
 
 성인 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
@@ -262,9 +262,11 @@ bearer를 얻는 방법은 다음과 같습니다.
 
 **무료 웹툰 다운로드 가능, 쿠키 필요**
 
-[웹사이트](https://bufftoon.plaync.com/) | 예시 URL: <https://bufftoon.plaync.com/series/1007888>
+[웹사이트](https://www.shortz.net/) | 예시 URL: <https://www.shortz.net/content/1532>
 
 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
+
+다운로드에 어려움이 있다면 문의하세요.
 
 ## 네이버 게임
 
