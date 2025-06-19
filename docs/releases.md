@@ -1,5 +1,13 @@
 # Release Note
 
+## 5.7.3 (2025-06-16)
+
+* App: 봄툰 확장 지원
+* App: 레진코믹스 관련 사이트 변화 반영
+* App: `unshuffle-immediately` 옵션 추가 (기본값; 기존 방식처럼 `shuffled` 폴더를 별도로 유지하고 싶은 경우 `--option unshuffle-immediately=false` 인자를 추가해야 합니다)
+* All: 여러 웹툰을 다운로드할 때 오류를 무시할 수 있는 `--suppress-error-on-batch` 추가
+* All: 이전 다운로드에서 특정한 상태를 가졌던 에피소드를 다운로드하지 않는 `--skip-status` 인자 추가
+
 ## 5.7.2 (2025-05-23)
 
 * App: 레진코믹스 확장 지원
