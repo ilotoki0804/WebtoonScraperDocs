@@ -74,7 +74,7 @@ webtoon download --option download-comments="true" --option download-all-comment
 
 ## 레진코믹스
 
-**유·무료·성인 웹툰 다운로드 가능, 다운로드 시 bearer(후술) 필요, 성인 웹툰의 경우 쿠키 필요**
+**유·무료·성인 웹툰 다운로드 가능, 다운로드 시 쿠키 필요**
 
 [웹사이트](https://www.lezhin.com/ko) | 예시 URL: <https://www.lezhin.com/ko/comic/dr_hearthstone>
 
@@ -82,39 +82,7 @@ webtoon download --option download-comments="true" --option download-all-comment
 
 한국어 레진코믹스(https://www.lezhin.com/ko)뿐 아니라 영어(https://www.lezhinus.com/en)와 일본어(https://www.lezhin.jp/ja) 레진코믹스도 다운로드를 지원합니다. 다운로드 방식은 모두 동일합니다.
 
-### 레진코믹스 다운로드 방법
-
-다운로드 방식은 다음과 같습니다.
-
-우선 아래 [레진코믹스 bearer](#레진코믹스-bearer) 단락에서 bearer를 찾아서 복사해 저장해 놓습니다.
-그런 다음 *성인 웹툰의 경우* [cookie 문서](./cookie.md)를 참고해 쿠키도 복사해 놓습니다.
-
-(앱의 경우) 앱에서 웹툰의 URL을 붙여넣으면 아래 '플랫폼 추가 설정' 칸에 bearer와 쿠키 입력창이 드러납니다. 앞에서 복사한 값을 붙여넣고 (성인 웹툰이 아닌 경우 쿠키는 입력할 필요가 없습니다.) 다운로드 버튼을 누릅니다.
-
-(CLI인 경우) 다음의 명령어를 입력합니다:
-
-```
-webtoon download --option bearer="<bearer 값>" --cookie "<쿠키>" "<웹툰 URL>"
-```
-
-만약 쿠키가 필요하지 않은 비성인 웹툰의 경우 `cookie` 항목을 제외하고 명령어를 입력합니다:
-
-```
-webtoon download --option bearer="<bearer 값>" "<웹툰 URL>"
-```
-
-### 레진코믹스 bearer
-
-레진코믹스는 자신의 계정의 데이터를 사용하기 위해선 bearer를 얻어 앱이나 포터블에서 사용해야 합니다.
-bearer를 얻는 방법은 다음과 같습니다.
-
-1. [이 링크](https://htmlpreview.github.io/?https://github.com/ilotoki0804/WebtoonScraperDocs/blob/main/docs/res/get-bearer.html)로 가세요(아직은 가지 마시고 설명을 좀 더 들으세요).
-1. 해당 웹페이지에 링크가 하나 있을 텐데, 그 링크를 북마크바로 드래그하세요. 만약 북마크바가 보이지 않을 시 `ctrl+shift+B`를 이용해 보이게 하세요. 그러면 북마크에 `get bearer`라는 이름의 북마크가 하나 생성이 될 것입니다.
-1. [이 링크](https://www.lezhin.com/ko/help#?faq=common&notice=serial)(메인 페이지에서는 사용할 수 없으니 꼭 이 링크로 가세요!)로 간 뒤 **로그인하세요**.
-1. 해당 북마크를 클릭하세요.
-1. 그러면 `here is the bearer string`이라는 안내 메시지와 함께 아래에 bearer가 뜰 것입니다. 복사하세요.
-
-`LEZHIN_BEARER` 환경 변수를 설정할 경우 해당 값을 이용합니다.
+이전에는 다운로드 시 bearer를 필요로 했지만 현재는 쿠키로 모든 종류의 웹툰을 다운로드받을 수 있습니다.
 
 ### 언셔플링
 
@@ -132,7 +100,6 @@ bearer를 얻는 방법은 다음과 같습니다.
 
 ### 레진코믹스의 추가 설정
 
-* `bearer` (**필수**): bearer 값을 입력합니다.
 * `unshuffle` (기본값: true): 웹툰이 셔플되어 있을 때 언셔플합니다.
 * `delete-shuffled` (기본값: false): 웹툰 언셔플이 끝나면 셔플된 파일을 삭제합니다.
 * `unshuffle-immediately` (기본값: true): 웹툰을 다운로드하는 동안 이미지를 언셔플합니다. 별도의 shuffled 웹툰 디렉토리가 생성되지 않고 다운로드가 끝난 뒤 별도의 작업이 필요하지 않아 간편하나 다운로드 속도는 조금 느려질 수 있습니다.
