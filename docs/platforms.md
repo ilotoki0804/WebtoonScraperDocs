@@ -40,7 +40,7 @@ WebtoonScraper는 웹툰을 다운로드하는 프로그램이기 때문에 웹�
 
 **네이버 웹툰·베스트 도전·도전만화 무료 웹툰 다운로드 가능, 성인 웹툰의 경우 쿠키 필요, 유료·매일+ 웹툰 다운로드 불가**
 
-[웹사이트](https://comic.naver.com/index) | 예시 URL: <https://comic.naver.com/webtoon/list?titleId=769209>
+웹사이트: `https://comic.naver.com/index` | 예시 URL: `https://comic.naver.com/webtoon/list?titleId=769209`
 
 네이버 웹툰 앱에서 `공유하기`를 통해 링크를 복사할 경우 `naver.me` 단축 URL로 공유되는데, 이 링크로도 다운로드가 가능합니다.
 
@@ -68,7 +68,7 @@ webtoon download --option download-comments="true" --option download-all-comment
 
 **유·무료·성인 웹툰 다운로드 가능, 유료·성인 웹툰의 경우 쿠키 필요**
 
-[웹사이트](https://webtoon.kakao.com/) | 예시 URL: <https://webtoon.kakao.com/content/%EB%82%98-%ED%98%BC%EC%9E%90%EB%A7%8C-%EB%A0%88%EB%B2%A8%EC%97%85/2320>
+웹사이트: `https://webtoon.kakao.com/` | 예시 URL: `https://webtoon.kakao.com/content/%EB%82%98-%ED%98%BC%EC%9E%90%EB%A7%8C-%EB%A0%88%EB%B2%A8%EC%97%85/2320`
 
 카카오페이지는 [별도의 가이드](#카카오페이지)를 참고하세요.
 
@@ -76,7 +76,7 @@ webtoon download --option download-comments="true" --option download-all-comment
 
 **유·무료·성인 웹툰 다운로드 가능, 다운로드 시 쿠키 필요**
 
-[웹사이트](https://www.lezhin.com/ko) | 예시 URL: <https://www.lezhin.com/ko/comic/dr_hearthstone>
+웹사이트: `https://www.lezhin.com/ko` | 예시 URL: `https://www.lezhin.com/ko/comic/dr_hearthstone`
 
 레진코믹스 성인 웹툰을 다운로드받기 위해선 쿠키가 필요합니다. 쿠키를 얻는 방법은 [쿠키 문서](./cookie.md)를 확인하세요.
 
@@ -112,7 +112,7 @@ webtoon download --option download-comments="true" --option download-all-comment
 
 **유·무료 웹툰 다운로드 가능, 유료 웹툰의 경우 쿠키 필요**
 
-[웹사이트](https://page.kakao.com/) | 예시 URL: <https://page.kakao.com/content/53397318>
+웹사이트: `https://page.kakao.com/` | 예시 URL: `https://page.kakao.com/content/53397318`
 
 유료 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
@@ -120,13 +120,13 @@ webtoon download --option download-comments="true" --option download-all-comment
 
 **무료·성인 웹툰 다운로드 가능, 쿠키 필요 없음**
 
-[웹사이트](https://www.webtoons.com/) | 예시 URL: <https://www.webtoons.com/en/fantasy/wumpus-wonderventures-discord-webcomic/list?title_no=5291>
+웹사이트: `https://www.webtoons.com/` | 예시 URL: `https://www.webtoons.com/en/fantasy/wumpus-wonderventures-discord-webcomic/list?title_no=5291`
 
 ## 리디북스 웹툰
 
 **유·무료·성인 웹툰 다운로드 가능, 유료·성인 웹툰의 경우 쿠키 필요**
 
-[웹사이트](https://ridibooks.com/webtoon/recommendation) | 예시 URL: <https://ridibooks.com/books/3498016129>
+웹사이트: `https://ridibooks.com/webtoon/recommendation` | 예시 URL: `https://ridibooks.com/books/3498016129`
 
 유료·성인 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
@@ -134,7 +134,7 @@ webtoon download --option download-comments="true" --option download-all-comment
 
 **유·무료·성인 웹툰 다운로드 가능, 쿠키 필요**
 
-[웹사이트](https://toptoon.com/) | 예시 URL: <https://toptoon.com/comic/ep_list/Brain_Breaker>
+웹사이트: `https://toptoon.com/` | 예시 URL: `https://toptoon.com/comic/ep_list/Brain_Breaker`
 
 웹툰 다운로드 시 쿠키를 적용시켜야 합니다. [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
@@ -142,7 +142,7 @@ webtoon download --option download-comments="true" --option download-all-comment
 
 **유·무료·성인 웹툰 다운로드 가능, 쿠키 필요, 성인 웹툰의 경우 bearer 필요**
 
-[웹사이트](https://www.toomics.com/) | 예시 URL: <https://www.bomtoon.com/detail/geum_bok_i>
+웹사이트: `https://www.toomics.com/` | 예시 URL: `https://www.bomtoon.com/detail/geum_bok_i`
 
 봄툰에서 웹툰을 다운로드받으려면 쿠키가 필요합니다. 쿠키를 얻는 방법은 [이 문서](./cookie.md)를 참고하세요.
 
@@ -171,7 +171,7 @@ bearer를 얻는 방법은 다음과 같습니다.
 
 **유·무료·성인 웹툰 다운로드 가능, 성인 웹툰의 경우 쿠키 필요**
 
-[웹사이트](https://www.toomics.com/) | 예시 URL: <https://www.toomics.com/webtoon/episode/toon/8545>
+웹사이트: `https://www.toomics.com/` | 예시 URL: `https://www.toomics.com/webtoon/episode/toon/8545`
 
 성인 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
@@ -179,13 +179,13 @@ bearer를 얻는 방법은 다음과 같습니다.
 
 **유·무료 웹툰 다운로드 가능, 쿠키 필요**
 
-[웹사이트](https://bufftoon.plaync.com/) | 예시 URL: <https://bufftoon.plaync.com/series/1007888>
+웹사이트: `https://bufftoon.plaync.com/` | 예시 URL: `https://bufftoon.plaync.com/series/1007888`
 
 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
 ## 이만배
 
-[웹사이트](https://www.emanbae.com/) | 예시 URL: <https://www.emanbae.com/series/13>
+웹사이트: `https://www.emanbae.com/` | 예시 URL: `https://www.emanbae.com/series/13`
 
 ### 이만배 다운로드 방법
 
@@ -224,7 +224,7 @@ bearer를 얻는 방법은 다음과 같습니다.
 
 **무료·성인 웹툰 다운로드 가능, 성인 웹툰의 경우 쿠키 필요**
 
-[웹사이트](https://tobe.aladin.co.kr/) | 예시 URL: <https://tobe.aladin.co.kr/s/10931>
+웹사이트: `https://tobe.aladin.co.kr/` | 예시 URL: `https://tobe.aladin.co.kr/s/10931`
 
 성인 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
@@ -232,7 +232,7 @@ bearer를 얻는 방법은 다음과 같습니다.
 
 **무료 웹툰 다운로드 가능, 쿠키 필요**
 
-[웹사이트](https://www.shortz.net/) | 예시 URL: <https://www.shortz.net/content/1532>
+웹사이트: `https://www.shortz.net/` | 예시 URL: `https://www.shortz.net/content/1532`
 
 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
@@ -240,16 +240,16 @@ bearer를 얻는 방법은 다음과 같습니다.
 
 ## 네이버 게임
 
-[웹사이트](https://game.naver.com/original_series) | 예시 URL: <https://game.naver.com/original_series/59>
+웹사이트: `https://game.naver.com/original_series` | 예시 URL: `https://game.naver.com/original_series/59`
 
 ## 네이버 블로그
 
-[웹사이트](https://m.blog.naver.com/FeedList.naver) | 예시 URL: <https://m.blog.naver.com/dpk58172?categoryNo=24&tab=1>
+웹사이트: `https://m.blog.naver.com/FeedList.naver` | 예시 URL: `https://m.blog.naver.com/dpk58172?categoryNo=24&tab=1`
 
 [모바일 사이트](https://m.blog.naver.com)를 이용해 주세요.
 
 ## 티스토리
 
-[웹사이트](https://www.tistory.com/) | 예시 URL: <https://doldistudio.tistory.com/category/진돌만화>
+웹사이트: `https://www.tistory.com/` | 예시 URL: `https://doldistudio.tistory.com/category/진돌만화`
 
 특정 티스토리 사이트는 다운로드가 되지 않을 수 있습니다. 만약 어떤 티스토리 사이트를 다운로드받는 데에 실패했다면 이슈를 열어주세요.
