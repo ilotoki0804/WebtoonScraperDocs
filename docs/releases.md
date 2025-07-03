@@ -1,5 +1,10 @@
 # Release Note
 
+## 5.7.6 (2025-07-04)
+
+* 레진코믹스 라이브러리 (`https://www.lezhin.com/ko/library`) 지원
+* `쿠키 얻기` 버튼을 통해 앱에서 쿠키를 직접 붙여넣을 필요 없이 브라우저에서 로그인해 얻을 수 있음
+
 ## 5.7.5 (2025-07-02)
 
 * 레진코믹스를 다운로드할 때 더 이상 bearer를 필요로 하지 않으며 cookie로 통합됨
@@ -56,7 +61,7 @@
 
 ## 5.4.0 (2025-03-20)
 
-* 투믹스 글로벌(<https://global.toomics.com/en>) 모든 언어 지원 Support downloading webtoons from toomics global (every languages)
+* 투믹스 글로벌(`https://global.toomics.com/en`) 모든 언어 지원 Support downloading webtoons from toomics global (every languages)
 * 리디와 투믹스 성인 웹툰 지원
 * 문서 개선 및 과거 문서 정리
 * 많은 API 개선 (async_callback, 예외 이름, progress bar, ...)
