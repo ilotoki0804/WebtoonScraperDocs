@@ -144,7 +144,7 @@ webtoon download --option download-comments="true" --option download-all-comment
 
 **유·무료·성인 웹툰 다운로드 가능, 쿠키 필요, 성인 웹툰의 경우 bearer 필요**
 
-웹사이트: `https://www.toomics.com/` | 예시 URL: `https://www.bomtoon.com/detail/geum_bok_i`
+웹사이트: `https://www.bomtoon.com/` | 예시 URL: `https://www.bomtoon.com/detail/geum_bok_i`
 
 봄툰에서 웹툰을 다운로드받으려면 쿠키가 필요합니다. 쿠키를 얻는 방법은 [이 문서](./cookie.md)를 참고하세요.
 
@@ -173,7 +173,9 @@ bearer를 얻는 방법은 다음과 같습니다.
 
 **유·무료·성인 웹툰 다운로드 가능, 성인 웹툰의 경우 쿠키 필요**
 
-웹사이트: `https://www.toomics.com/` | 예시 URL: `https://www.toomics.com/webtoon/episode/toon/8545`
+웹사이트: `https://m.toomics.com/` | 예시 URL: `https://m.toomics.com/webtoon/episode/toon/8545`
+
+웹툰을 다운로드할 때 문제가 발생한다면 우선 쿠키를 `www.toomics.com`가 아닌 `m.toomics.com`에서 추출해 주세요.
 
 성인 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
