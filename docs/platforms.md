@@ -132,7 +132,7 @@ webtoon download --option download-comments="true" --option download-all-comment
 
 유료·성인 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
 
-리디북스의 경우 웹툰뿐 아니라 만화 E북과 단권 만화 모두 다운로드 가능합니다.
+리디북스의 경우 지원 환경에 웹이 포함된 경우 웹툰뿐 아니라 만화 E북과 단권 만화 모두 다운로드 가능합니다.
 라이브러리(`https://library.ridibooks.com/`)에 있는 웹툰/만화도 모두 다운로드 가능합니다.
 
 ## 탑툰
