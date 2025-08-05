@@ -18,7 +18,7 @@ WebtoonScraper는 다양한 웹툰 플랫폼에서 다운로드를 제공합니�
 | **레진코믹스(PyPI 제공)** | ✅ | ✅ | ✅ |
 | **카카오페이지** | ✅ | ❓ | ✅ |
 | **webtoons.com** | ✅ | ✅ | ❌ |
-| **리디북스 웹툰** | ✅ | ✅ | ✅ |
+| **리디북스** | ✅ | ✅ | ✅ |
 | **탑툰** | ✅ | ✅ | ❓ |
 | **봄툰** | ✅ | ✅ | ✅ |
 | **투믹스** | ✅ | ✅ | ✅ |
@@ -124,13 +124,16 @@ webtoon download --option download-comments="true" --option download-all-comment
 
 웹사이트: `https://www.webtoons.com/` | 예시 URL: `https://www.webtoons.com/en/fantasy/wumpus-wonderventures-discord-webcomic/list?title_no=5291`
 
-## 리디북스 웹툰
+## 리디북스
 
 **유·무료·성인 웹툰 다운로드 가능, 유료·성인 웹툰의 경우 쿠키 필요**
 
 웹사이트: `https://ridibooks.com/webtoon/recommendation` | 예시 URL: `https://ridibooks.com/books/3498016129`
 
 유료·성인 웹툰의 경우 쿠키를 적용시켜야 합니다 [쿠키 문서](./cookie.md)를 참고해 쿠키를 복사해 적용하세요.
+
+리디북스의 경우 웹툰뿐 아니라 만화 E북과 단권 만화 모두 다운로드 가능합니다.
+라이브러리(`https://library.ridibooks.com/`)에 있는 웹툰/만화도 모두 다운로드 가능합니다.
 
 ## 탑툰
 
