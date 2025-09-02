@@ -1,12 +1,13 @@
 # Release Note
 
-## 5.8.1 (2025-09-02)
+## 5.8.1.post1 (2025-09-02)
 
 * 네이버 댓글 다운로드 오류 해결 및 개선
 * 일부 정보가 `information.json`에 제대로 저장되지 않는 오류 해결
 * 쿠키 가져오기를 실패했을 때 크롬 최신 버전을 설치하고 재시작했는지 확실하게 물음
 * httpc 최대 지원 버전 상향
 * 기타 다양한 버그 수정 및 개선
+* (post1) option이 제대로 먹히지 않은 오류 수정
 
 GitHub Actions가 [인텔 맥OS 지원을 종료](https://github.blog/changelog/2025-07-11-upcoming-changes-to-macos-hosted-runners-macos-latest-migration-and-xcode-support-policy-updates/#macos-13-is-closing-down)함에 따라, 이번 버전이 마지막으로 인텔맥을 지원하는 버전입니다. 앞으로는 `macos-intel-installer.zip`은 포함되지 않습니다.
 
