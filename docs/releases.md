@@ -1,9 +1,9 @@
 # Release Note
 
-## 5.8.2 (2025-09-27)
+## 5.8.2 (2025-10-04)
 
 * cookie 데이터를 json으로 입력 가능 ([Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc) 등을 이용해서도 로그인 가능)
-* 인텔 맥 지원 종료 (여전히 `5.8.1.post1`을 사용 가능)
+* 인텔 맥 지원 종료 (여전히 `5.8.1.post1`에서는 다운로드 및 사용 가능)
 * 쿠키 얻기 버튼이 동작하지 않는 버그 해결
 
 ## 5.8.1.post1 (2025-09-02)

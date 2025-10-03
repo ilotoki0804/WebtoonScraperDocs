@@ -80,7 +80,7 @@ webtoon download --option download-comments-option="new" --option comment-downlo
 
 레진코믹스 성인 웹툰을 다운로드받기 위해선 쿠키가 필요합니다. 쿠키를 얻는 방법은 [쿠키 문서](./cookie.md)를 확인하세요.
 
-한국어 레진코믹스(`https://www.lezhin.com/ko`)뿐 아니라 영어(`https://www.lezhinus.com/en`)와 일본어(`https://www.lezhin.jp/ja`) 레진코믹스도 다운로드를 지원합니다.
+한국어 레진코믹스(`https://www.lezhin.com/ko`)와 영어(`https://www.lezhinus.com/en`) 레진코믹스의 다운로드를 지원합니다.
 다운로드 방식은 모두 동일합니다만 다운로드 시 언어 설정이 정확한지 확인하세요. 한 언어 사이트에서 얻은 쿠키로 다른 언어에서 사용할 수 없습니다.
 
 지원 종료되었으나 소장한 웹툰들은 라이브러리 URL(`https://www.lezhin.com/ko/library`)로 다운로드하실 수 있습니다.
