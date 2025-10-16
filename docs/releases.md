@@ -1,10 +1,17 @@
 # Release Note
 
+## 5.9.0 (2025-10-16)
+
+* macOS에서 앱 지원 추가 (ARM 기반 맥 지원)
+* 다운로드 경로가 override되는 문제 수정
+* (5.8.2에서 추가됨) webtoon.html에서 다크 모드 지원
+
 ## 5.8.2 (2025-10-04)
 
 * cookie 데이터를 json으로 입력 가능 ([Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc) 등을 이용해서도 로그인 가능)
 * 인텔 맥 지원 종료 (여전히 `5.8.1.post1`에서는 다운로드 및 사용 가능)
 * 쿠키 얻기 버튼이 동작하지 않는 버그 해결
+* webtoon.html에서 다크 모드 지원
 
 ## 5.8.1.post1 (2025-09-02)
 
