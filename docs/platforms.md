@@ -155,7 +155,7 @@ webtoon download --option download-comments-option="new" --option comment-downlo
 
 ### 봄툰 bearer
 
-봄툰는 자신의 계정의 데이터를 사용하기 위해선 bearer를 얻어 앱이나 포터블에서 사용해야 합니다.
+봄툰는 자신의 계정의 데이터를 사용하기 위해선 bearer를 얻어 앱이나 CLI에서 사용해야 합니다.
 bearer를 얻는 방법은 다음과 같습니다.
 
 1. [이 링크](https://htmlpreview.github.io/?https://github.com/ilotoki0804/WebtoonScraperDocs/blob/main/docs/res/get-bearer.html)로 가세요(아직은 가지 마시고 설명을 좀 더 들으세요).
@@ -216,7 +216,7 @@ webtoon download --option bearer="<bearer 값>" "<웹툰 URL>"
 
 ### 이만배 bearer
 
-이만배는 자신의 계정의 데이터를 사용하기 위해선 bearer를 얻어 앱이나 포터블에서 사용해야 합니다.
+이만배는 자신의 계정의 데이터를 사용하기 위해선 bearer를 얻어 앱이나 CLI에서 사용해야 합니다.
 bearer를 얻는 방법은 다음과 같습니다.
 
 1. [이 링크](https://htmlpreview.github.io/?https://github.com/ilotoki0804/WebtoonScraperDocs/blob/main/docs/res/get-bearer.html)로 가세요(아직은 가지 마시고 설명을 좀 더 들으세요).

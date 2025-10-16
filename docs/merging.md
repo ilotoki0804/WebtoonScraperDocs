@@ -14,9 +14,9 @@
 
 ![회차 병합란](image/app-guide/1727113968237.png)
 
-### 포터블
+### CLI
 
-포터블의 경우 다운로드 시에 `-m` 플래그를 사용하시면 웹툰 다운로드가 완료된 후 디렉토리를 병합합니다.
+CLI의 경우 다운로드 시에 `-m` 플래그를 사용하시면 웹툰 다운로드가 완료된 후 디렉토리를 병합합니다.
 
 ```console
 webtoon download -m 5 "https://comic.naver.com/webtoon/list?titleId=183559"
@@ -24,7 +24,7 @@ webtoon download -m 5 "https://comic.naver.com/webtoon/list?titleId=183559"
 
 ### 병합하고 복원하기
 
-포터블의 `webtoon merge` 명령어를 통해서 원하는 웹툰 디렉토리를 병합하거나 병합된 상태에서 기존의 디렉토리 상태로 되돌릴 수 있습니다.
+CLI의 `webtoon merge` 명령어를 통해서 원하는 웹툰 디렉토리를 병합하거나 병합된 상태에서 기존의 디렉토리 상태로 되돌릴 수 있습니다.
 
 아래의 명령어를 사용해서 웹툰 디렉토리를 5회차씩 병합합니다.
 

@@ -1,10 +1,10 @@
-# PyPI 패키지와 포터블에서의 웹툰 다운로드
+# CLI에서의 웹툰 다운로드
 
 앱을 통해 다운로드하는 방법이 궁금하다면 [앱으로 웹툰 다운로드](./3-downloading-app.md)를 참고하세요.
 
 ## 다운로드
 
-PyPI 패키지와 포터블에서는 기본적으로 다음과 같은 명령어를 통해 다운로드를 할 수 있습니다.
+CLI에서는 기본적으로 다음과 같은 명령어를 통해 다운로드를 할 수 있습니다.
 
 ```console
 webtoon download "https://<다운로드받을 URL>"
@@ -16,7 +16,7 @@ webtoon download "https://<다운로드받을 URL>"
 ![webtoon_directory](image/downloading/webtoon_directory.png)
 
 웹툰 디렉토리 내에는 웹툰의 썸네일인 *thumbnail.jpg*, 웹툰에 관련한 정보를 담는 *information.json*,
-웹브라우저에서 웹툰을 볼 수 있는 [*webtoon.html*](./viewer.md)(포터블 버전에서만 포함됨), 그리고 가장 중요한 웹툰 이미지 파일들을 담은 여러 폴더(에피소드 디렉토리라고 부르겠습니다.)들이 있습니다.
+웹브라우저에서 웹툰을 볼 수 있는 [*webtoon.html*](./viewer.md)(다운로드된 CLI 버전에서만 포함됨), 그리고 가장 중요한 웹툰 이미지 파일들을 담은 여러 폴더(에피소드 디렉토리라고 부르겠습니다.)들이 있습니다.
 
 ## 추가 인자 설정
 

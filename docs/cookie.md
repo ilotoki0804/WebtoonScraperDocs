@@ -86,9 +86,9 @@ WebtoonScraper는 쿠키 데이터를 절대 외부로 반출하지 않으며 �
 
 ![cookie inserted](image/app-guide/1727108032165.png)
 
-### 포터블·패키지에서 쿠키 적용하기
+### CLI에서 쿠키 적용하기
 
-포터블에서는 다운로드 시 `--cookie` [인자](downloading-cli.md#추가-인자-설정)를 통해 쿠키를 입력할 수 있습니다.
+CLI에서는 다운로드 시 `--cookie` [인자](downloading-cli.md#추가-인자-설정)를 통해 쿠키를 입력할 수 있습니다.
 쿠키 문자열은 일반적으로 상당히 길기 때문에 압도될 수 있지만, 큰따옴표만 잘 붙이면 문제 없이 다운로드할 수 있습니다.
 
 ```console
