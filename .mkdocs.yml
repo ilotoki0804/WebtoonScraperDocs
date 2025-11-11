@@ -25,8 +25,8 @@ nav:
     # - 튜토리얼: 'ko/tutorial.md'
     - 사용 가이드:
       - 설치: 'installing.md'
-      - CLI로 다운로드: 'downloading-cli.md'
       - 앱으로 다운로드: 'downloading-app.md'
+      - CLI로 다운로드: 'downloading-cli.md'
       - 플랫폼: 'platforms.md'
       - 쿠키: 'cookie.md'
     - 추가 기능:
