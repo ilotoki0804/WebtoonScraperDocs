@@ -2,65 +2,50 @@
 
 **[English documentation is available](./README-en.md).**
 
-쉽고 빠르게 많은 웹사이트에서 웹툰을 다운로드받을 있는 프로그램입니다.
+다양한 웹사이트에서 웹툰을 쉽고 빠르게 다운로드받으세요
 
-저작권과 책임에 대한 내용을 더욱 자세히 알고 싶다면 [이 문서](./copyright.md)를 참고해 주세요.
+[<img src="./image/gui.png" width="70%">](https://www.patreon.com/ilotoki0804)
+
+WebtoonScraper(웹툰 스크래퍼) 앱을 통하면 다양한 다양한 웹사이트에서 웹툰을 쉽고 빠르게 다운로드받으실 수 있습니다.
+윈도우와 맥OS에서 앱을 지원하며 리눅스에서는 CLI 환경을 제공합니다.
+
+WebtoonScraper를 통해 **네이버 웹툰, 레진코믹스, 카카오 웹툰, 카카오페이지, webtoons.com, 리디북스 웹툰, 탑툰, 봄툰, 투믹스, 버프툰, 이만배, 투비컨티뉴드, 재담쇼츠, 네이버 게임 오리지널, 네이버 블로그, 티스토리**에서 웹툰을 다운로드할 수 있으며, 그 외 이미지 연결이나 회차 폴더 병합 등의 부가기능을 사용할 수 있습니다.
 
 ## 이용 방법
 
-앱이나 CLI 버전 이용 방법은 [여기](#앱으로-이용하기)를 클릭하세요.
+[![WebtoonScraper donation link](./image/patreon.png)](https://www.patreon.com/ilotoki0804)
 
-파이썬(3.10 이상, 최신 버전 권장)을 설치하고 터미널에서 다음과 같은 명령어를 실행합니다.
+[Patreon](https://www.patreon.com/ilotoki0804)으로 후원하시면 개발자를 후원하실 수 있으며 다음과 같은 다양한 기능을 사용할 수 있습니다.
+일회성으로 구매할 수도 있고, 월 단위로 모든 릴리즈를 자유롭게 사용할 수 있는 멤버쉽도 사용 가능합니다.
 
-```console
-pip install -U WebtoonScraper[full]
-```
+* WebtoonScraper 앱과 CLI 다운로드
+* 다양한 플랫폼에서의 웹툰 다운로드 지원
+* 에피소드 디렉토리 병합 및 이미지 연결 기능
+* 컴퓨터에서의 자체 웹툰 뷰어 웹툰 파일에 내장 (webtoon.html)
 
-대부분의 웹툰은 다음과 같이 터미널에 `webtoon download`를 치고 큰따옴표로 감싼 URL을 뒤에 위치하면 작동합니다.
+## 더 알아보기
 
-```console
-webtoon download "https://comic.naver.com/webtoon/list?titleId=819217"
-```
+더 다양한 문서들을 통해 WebtoonScraper에 대해 이해하실 수 있습니다.
 
-다른 기능들과 설정에 대해서는 **[사용 방법](./downloading-cli.md)** 문서를 참고해 주세요.
+WebtoonScraper의 기본적인 [설치](./installing.md)와 [다운로드](./downloading-app.md)는 각각의 문서를 참고하세요.
 
-## 후원하기
+WebtoonScraper의 [범위 설정](./download-range.md)과 [쿠키 얻기](./cookie.md), [회차 폴더 이름 설정](./directory-name.md)에 대해서도 알아보세요.
 
-[![BECOME A PATREON](https://raw.githubusercontent.com/ilotoki0804/WebtoonScraperDocs/main/docs/image/patreon.png)](https://www.patreon.com/ilotoki0804)
+WebtoonScraper의 부가기능인 [이미지 연결](./concatenating.md), [폴더 병합](./merging.md)도 참고하세요.
 
-WebtoonScraper 프로젝트는 후원으로 운영됩니다.
+WebtoonScraper의 각 플렛폼별 지원 현황과 사용 방법이 궁금하다면 [플랫폼](./platforms.md) 문서를 참고하세요.
 
-[Patreon](https://www.patreon.com/ilotoki0804)으로 후원하시면 개발자를 후원하실 수 있으며 다음과 같은 다양한 추가 기능을 사용할 수 있습니다.
+WebtoonScraper의 CLI(명령줄 인터페이스) 환경에 대해 궁금하다면 [CLI에서 다운로드하기](./downloading-cli.md) 문서를 참고하세요.
 
-* **네이버 웹툰과 레진코믹스와 더불어 카카오 웹툰, 카카오페이지, webtoons.com, 리디북스 웹툰, 탑툰, 봄툰, 투믹스, 버프툰, 이만배, 투비컨티뉴드, 재담쇼츠, 네이버 게임 오리지널, 네이버 블로그, 티스토리를 추가로 다운로드받을 수 있습니다.**
-* **WebtoonScraper 앱과 CLI 버전을 사용할 수 있습니다.**
-* 에피소드 디렉토리 병합하기
-* 이미지 연결하기
-* 브라우저 PC 웹툰 뷰어 (webtoon.html)
+마지막으로 [저장한 웹툰을 열람](./how-to-view.md)하는 방법에 대해서도 알아보세요.
 
-## 앱으로 이용하기
+책임 있는 WebtoonScraper의 사용에 대해 알고 싶다면 [이 문서](./copyright.md)를 참고해 주세요.
 
-[<img src="https://raw.githubusercontent.com/ilotoki0804/WebtoonScraperDocs/main/docs/image/gui.png" width="70%">](https://www.patreon.com/ilotoki0804)
+## PyPI 및 Github 버전
 
-WebtoonScraper는 파이썬이나 pip 설치 없이 바로 앱으로 사용할 수 있으며,
-앱을 이용하면 CLI를 사용하는 방법을 알 필요 없이 더욱 간편하게 사용할 수 있습니다.
+WebtoonScraper의 핵심 로직과 일부 스크래퍼는 [PyPI (WebtoonScraper)](https://pypi.org/project/WebtoonScraper/)와 [Github](https://github.com/ilotoki0804/WebtoonScraper)에 공개되어 있습니다.
 
-**다운로드와 사용 방법은 [앱 사용 가이드](./downloading-app.md)를 참고하세요.**
-
-네이버 웹툰과 레진코믹스와 더불어 카카오 웹툰, 카카오페이지, webtoons.com, 리디북스 웹툰, 탑툰, 봄툰, 투믹스, 버프툰, 이만배, 투비컨티뉴드, 재담쇼츠, 네이버 게임 오리지널, 네이버 블로그, 티스토리를 추가로 다운로드받을 수 있습니다.
-
-현재는 윈도우에서만 사용할 수 있으나, 향후 맥이나 안드로이드에서도 사용할 수 있도록 준비하고 있습니다.
-
-## 실행 파일로 이용하기
-
-이 패키지는 윈도우, 맥, 리눅스에서 실행 파일 형태로 사용할 수 있습니다.
-실행 파일로 사용하면 몇 가지 장점이 있습니다.
-
-* 파이썬 설치나 pip를 다룰 필요 없이 다운로드한 뒤 바로 사용이 가능합니다.
-* 네이버 웹툰과 레진코믹스와 더불어 카카오 웹툰, 카카오페이지, webtoons.com, 리디북스 웹툰, 탑툰, 봄툰, 투믹스, 버프툰, 이만배, 투비컨티뉴드, 재담쇼츠, 네이버 게임 오리지널, 네이버 블로그, 티스토리를 추가로 다운로드받을 수 있습니다.
-* 실행 파일을 이용하면 여러 웹툰을 다운로드받을 때 훨씬 빠르게 다운로드가 가능합니다.
-
-**다운로드와 사용 방법은 [실행 파일 사용 가이드](./downloading-cli.md)를 참고하세요.**
+PyPI 및 Github에 공개된 기술적인 측면이 궁금하다면 [이 문서](./inside-scraper.md)를 참고하세요.
 
 ## 릴리즈 노트
 
@@ -70,26 +55,25 @@ WebtoonScraper는 파이썬이나 pip 설치 없이 바로 앱으로 사용할 �
 
 WebtoonScraper는 크게 세 가지 종류로 나뉘어집니다.
 
-* PyPI 패키지
-* CLI 버전
 * 앱
+* CLI 버전
+* PyPI 패키지
 
-**PyPI 패키지**는 가장 기본이 되는 버전이며 자유롭게 다운로드해 사용할 수 있지만 파이썬을 설치해야 하고 *네이버 웹툰과 레진코믹스만 지원*합니다.
+**앱**는 [후원](https://www.patreon.com/ilotoki0804)을 하면 이용할 수 있고 *네이버 웹툰과 레진코믹스, 카카오 웹툰, 카카오페이지, webtoons.com, 리디북스 웹툰, 탑툰, 봄툰, 투믹스, 버프툰, 이만배, 투비컨티뉴드, 재담쇼츠, 네이버 게임 오리지널, 네이버 블로그, 티스토리*에서도 웹툰 다운로드를 지원하며, 특별한 설치 없이도 사용 가능합니다. 윈도우와 맥을 지원합니다.
 
-**CLI와 앱**은 [후원](https://www.patreon.com/ilotoki0804)을 하면 이용할 수 있고 네이버 웹툰과 레진코믹스를 *포함*해 *카카오 웹툰, 카카오페이지, webtoons.com, 리디북스 웹툰, 탑툰, 봄툰, 투믹스, 버프툰, 이만배, 투비컨티뉴드, 재담쇼츠, 네이버 게임 오리지널, 네이버 블로그, 티스토리*에서도 웹툰 다운로드를 지원하며, 특별한 설치 없이도 사용 가능합니다.
+**CLI**는 앱과 마찬가지로 [후원](https://www.patreon.com/ilotoki0804)하면 이용할 수 있으며 직접 명령어를 입력해 사용할 수 있습니다. 윈도우, 맥, 리눅스를 지원합니다.
 
-**앱 버전**은 CLI 버전과 마찬가지로 [후원](https://www.patreon.com/ilotoki0804)하면 이용할 수 있으며 직접 명령어를 입력할 필요 없이 사용할 수 있습니다.
+**PyPI 패키지**는 가장 기본이 되는 버전이며 자유롭게 다운로드해 사용할 수 있지만 파이썬을 설치해야 하고 *네이버 웹툰만 지원*합니다.
 
 ## 오류를 발견했어요!
 
 모든 프로그램이 그렇듯 WebtoonScraper를 사용하다 보면 오류를 발견할 수도 있습니다.
-그럴 경우 [깃허브 이슈](https://github.com/ilotoki0804/WebtoonScraper/issues/)를 만들거나 [패트리온 DM](https://www.patreon.com/ilotoki0804)으로 연락 주시면 됩니다.
-보통은 하루 이내에 답장을 받으실 수 있을 겁니다.
+그럴 경우 [깃허브 이슈](https://github.com/ilotoki0804/WebtoonScraper/issues/)를 만들거나 [패트리온 DM](https://www.patreon.com/ilotoki0804)으로 연락 주시면 됩니다. 보통은 하루 이내에 답장을 받으실 수 있을 겁니다.
 
 오류를 설명할 때는 다음과 같은 사항들을 알려주시면 더 빠르게 수정될 수 있습니다.
 
 * `webtoon --version`을 실행했을 때 출력되는 문자열. 최신이 아닐 경우 제보 전 최신 버전으로 업데이트한 후 해결되는지 확인하세요!
-* 사용한 프로그램(PyPI 패키지, CLI, 앱)
+* 사용한 프로그램 (앱, CLI, PyPI 패키지)
 * 다운로드하려고 시도했던 웹툰의 URL
 * 운영체제 (윈도우/맥/리눅스)
-* (CLI/패키지의 경우)`-v` 플래그 추가해 다운로드 시도한 뒤 출력되는 문자열(예: `webtoon -v download "<url>"`)
+* (CLI/PyPI의 경우)`-v` 플래그 추가해 다운로드 시도한 뒤 출력되는 문자열(예: `webtoon -v download "<url>"`)

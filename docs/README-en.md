@@ -1,76 +1,79 @@
 # WebtoonScraper
 
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/WebtoonScraper)](https://pypi.org/project/WebtoonScraper/)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Filotoki0804%2FWebtoonScraper&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://github.com/ilotoki0804/WebtoonScraper)
-[![Sponsoring](https://img.shields.io/badge/Sponsoring-Patreon-blue?logo=patreon&logoColor=white)](https://www.patreon.com/ilotoki0804)
+**Korean documentation is available.**
 
-This is a program that allows you to quickly and easily download webtoons from many websites.
+Download webtoons easily and quickly from various websites.
 
-For more information about copyright and liability, see [this document](./copyright.md).
+[<img src="./image/gui.png" width="70%">](https://www.patreon.com/ilotoki0804)
 
-* [WebtoonScraper](#webtoonscraper)
-    * [How to use](#how-to-use)
-    * [featuresAdditional](#featuresadditional)
-    * [Use as an app](#use-as-an-app)
-    * [Get it as an executable](#get-it-as-an-executable)
-    * [Release notes](#release-notes)
+WebtoonScraper lets you download webtoons easily and quickly from various websites. The app is supported on Windows and macOS, and a CLI environment is provided for Linux.
 
-## How to use
+With WebtoonScraper, you can download webtoons from **Naver Webtoon, Lezhin Comics, Kakao Webtoon, Kakaopage, webtoons.com, Ridibooks Webtoon, Toptoon, Bomtoon, Toomics, Bufftoon, Emanbae, TobeContinued, Jaedam Shorts, Naver Game Original, Naver Blog, and Tistory**. You can also use additional features like image concatenation and episode folder merging.
 
-To use the app or portable version, click [here](#Use-as-an-app).
+## How to Use
 
-Install Python (3.10 or later, newer versions recommended) and run the following command in the terminal
+[![WebtoonScraper donation link](./image/patreon.png)](https://www.patreon.com/ilotoki0804)
+You can purchase it as a one-time purchase, or use a membership that gives you free access to all releases on a monthly basis.
 
-```console
-pip install -U WebtoonScraper[full]
-```
+By supporting on [Patreon](https://www.patreon.com/ilotoki0804), you can support the developer and access various features:
 
-Most webtoons will work by typing `webtoon download` in the terminal, followed by the URL in double quotes, like so
+* WebtoonScraper app and CLI
+* Support for downloading webtoons from various platforms
+* Episode directory merging and image concatenation features
+* Computer webtoon viewer through browser (webtoon.html)
 
-```console
-webtoon download "https://comic.naver.com/webtoon/list?titleId=819217"
-```
+You can purchase it as a one-time purchase, or use a membership that gives you free access to all releases for a month (cancelable at any time).
 
-For other features and settings, please refer to the **[How to use](./how-to-use.md)** documentation.
+## Learn More
 
-## Donating
+You can learn about WebtoonScraper through various documentation.
 
-[![BECOME A PATREON](../images/patreon.png)](https://www.patreon.com/ilotoki0804)
+For basic [installation](./installing.md) and [downloading](./downloading-app.md) with WebtoonScraper, refer to the respective documents.
 
-The WebtoonScraper project is supported by donations.
+Learn about WebtoonScraper's [download range settings](./download-range.md), [getting cookies](./cookie.md), and [episode folder naming](./directory-name.md).
 
-By donating on [Patreon](https://www.patreon.com/ilotoki0804), you can support the developer and get a variety of additional features, including:
+Check out WebtoonScraper's additional features like [image concatenation](./concatenating.md) and [folder merging](./merging.md).
 
-* In addition to Naver Webtoon and Lezhin Comics, you can download additional webtoons from Kakao Webtoon, Kakaopage, webtoons.com, Bufftoon, Naver Post, Naver Games, Naver Blog, and Tistory.
-* WebtoonScraper app and its portable version
-* Webtoon Viewer
-* Merge episode directories
-* Concatenating images
+If you're curious about the support status and usage for each platform in WebtoonScraper, refer to the [platforms](./platforms.md) document.
 
-## Use as an app
+If you're curious about WebtoonScraper's CLI (Command Line Interface) environment, refer to the [downloading with CLI](./downloading-cli.md) document.
 
-[<img src="https://raw.githubusercontent.com/ilotoki0804/WebtoonScraperDocs/main/docs/image/gui.png" width="70%">](https://www.patreon.com/ilotoki0804)
+Finally, learn about [how to view saved webtoons](./how-to-view.md).
 
-WebtoonScraper is available as an app out of the box, with no python or pip installation required,
-You don't need to know how to use the CLI to use the app.
+To learn about responsible use of WebtoonScraper, please refer to [this document](./copyright.md).
 
-**Please refer to the [App User Guide](./app-guide.md) for more information on how to download and use WebtoonScraper.**
+## PyPI and Github Version
 
-In addition to Naver Webtoon and Lezhin Comics, you can download Kakao Webtoon, Kakaopage, webtoons.com, Bufftoon, Naver Post, Naver Games, Naver Blog, and Tistory.
+The core logic and some scrapers of WebtoonScraper are publicly available on [PyPI (WebtoonScraper)](https://pypi.org/project/WebtoonScraper/) and [Github](https://github.com/ilotoki0804/WebtoonScraper).
 
-Currently, it is only available for Windows, but I'm preparing to make it available for Mac and Android in the future.
+If you're curious about the technical aspects released on PyPI and Github, refer to [this document](./inside-scraper.md).
 
-## Get it as an executable
+## Release Notes
 
-This package can be used as an executable file on Windows, Mac, and Linux.
-There are several advantages to using it as an executable.
+Refer to the [release notes document](./releases.md).
 
-* You don't have to install Python or deal with pip, just download it and start using it.
-* In addition to Naver Webtoon and Lezhin Comics, you can download Kakao Webtoon, Kakao Page, webtoons.com, Bufftoon, Naver Post, Naver Games, Naver Blog, and Tistory.
-* The executable file allows you to download multiple webtoons much faster.
+## How to Use
 
-**Please refer to the [Executable File User Guide](./executable-guide.md) to learn how to download and use it.**
+WebtoonScraper is divided into three main types:
 
-## Release notes
+* App
+* CLI version
+* PyPI package
 
-Please refer to the [Release Notes documentation](./releases.md).
+**App** can be used by [supporting on Patreon](https://www.patreon.com/ilotoki0804), support webtoon downloads from *Naver Webtoon, Lezhin Comics, Kakao Webtoon, Kakaopage, webtoons.com, Ridibooks Webtoon, Toptoon, Bomtoon, Toomics, Bufftoon, Emanbae, TobeContinued, Jaedam Shorts, Naver Game Original, Naver Blog, and Tistory*, and can be used without special installation. Supports Windows and macOS.
+
+The **CLI** can be used by [supporting on Patreon](https://www.patreon.com/ilotoki0804), just like the app, and can be used with entering commands. Supports Windows, macOS, and Linux.
+
+The **PyPI package** is the most basic version and can be freely downloaded and used, but requires Python installation and *only supports Naver Webtoon*.
+
+## I Found a Bug!
+
+As with all programs, you may encounter bugs while using WebtoonScraper. In that case, you can create a [Github issue](https://github.com/ilotoki0804/WebtoonScraper/issues/) or contact via [Patreon DM](https://www.patreon.com/ilotoki0804). You'll usually receive a reply within a day.
+
+When explaining bugs, providing the following information can help with faster fixes:
+
+* The string output when running `webtoon --version`. If it's not the latest version, please update to the latest version before reporting and check if it's resolved!
+* The program you used (PyPI package, CLI, app)
+* The URL of the webtoon you attempted to download
+* Operating system (Windows/Mac/Linux)
+* (For CLI/package) The string output after attempting to download with the `-v` flag added (e.g., `webtoon -v download "<url>"`)
