@@ -56,7 +56,8 @@ WebtoonScraper는 웹툰을 다운로드하는 프로그램이기 때문에 웹�
 
 * `download-comments-option` (`false`, `best`, `new` 중 선택; 기본값 `false`): 해당 회차의 댓글을 불러옵니다. `false`(기본값)으로 설정된 경우 댓글을 다운로드하지 않고, `best`로 설정한 경우 베스트 댓글을 다운로드합니다. `new`로 설정된 경우 해당 회차의 모든 댓글을 시간순으로 불러옵니다. 이 기능은 댓글이 많을 경우 다운로드에 오랜 시간이 걸릴 수 있습니다.
 * `comment-download-limit` (자연수): `download-comments-option`가 `new`로 설정된 경우 불러오는 댓글 수를 제한합니다. 설정된 값보다 웹툰 회차의 댓글 수가 적다면 모든 댓글이 다운로드되고, 아니라면 설정된 값과 같거나 많은 양의 댓글을 불러옵니다. `download-comments-option`이 `new`가 아닌 값으로 설정되어 있을 때는 아무런 역할도 하지 않습니다. 값이 설정되어있지 않다면 모든 댓글이 다운로드됩니다.
-* `download-audio` (`true`, `false`중 선택; 기본값 `true`): 해당 회차에 bgm이 있을 경우 다운로드합니다. bgm은 [webtoon.html 뷰어](how-to-view.md)에서 틀 수 있습니다. 기본으로 켜져 있기 때문에 일반적으로는 설정할 필요가 없습니다.
+* `download-audio` (`true`, `false` 중 선택; 기본값 `true`): 해당 회차에 bgm이 있을 경우 다운로드합니다. bgm은 [webtoon.html 뷰어](how-to-view.md)에서 틀 수 있습니다. 기본으로 켜져 있기 때문에 일반적으로는 설정할 필요가 없습니다.
+* `always-refresh-comments` (`true`, `false` 중 선택; 기본값 `false`): 웹툰 댓글은 기본적으로는 해당 회차에 이미지를 다운로드하는 경우에만 같이 다운로드됩니다. 이 옵션을 참으로 하면 해당 회차에 이미지를 다운로드하는지와 관계없이 항상 댓글을 다운로드받습니다.
 
 이 옵션들은 다음과 같이 사용할 수 있습니다.
 
