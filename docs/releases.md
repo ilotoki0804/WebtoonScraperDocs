@@ -1,8 +1,14 @@
 # Release Note
 
+## 5.10.0 (2025-11-15)
+
+* 레진코믹스 일본어 지원
+* 네이버 웹툰에 always-refresh-comments 옵션 추가
+* 이미지를 다운로드 시 문제가 발생했을 때 오류를 발생시키는 대신 경고를 출력
+
 ## 5.9.1 (2025-11-11)
 
-* 레진코믹스 1280p 지원
+* 레진코믹스 1280p/1440p 지원
 * 다양한 문서 개선
 
 전반적으로 오래된 정보를 담고 있던 [WebtoonScraper의 문서](https://webtoonscraper.readthedocs.io/ko/latest/)가 여러모로 개선되었습니다.
