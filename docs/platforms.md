@@ -110,6 +110,7 @@ webtoon download --option download-comments-option="new" --option comment-downlo
 * `open-free-episode` (기본값: false): 열 수 있는 매매무 회차가 있을 때 회차를 열고 다운로드합니다.
 * `download-paid` (기본값: true): 유료 회차도 다운로드를 시도합니다.
 * `thread-number` (기본값: default): 언셔플 시 사용할 스레드 개수를 설정합니다. `default`로 설정할 경우 CPU의 전체 스레드 개수의 절반을 언셔플 시에 사용합니다. 단, `default`이더라도 스레드 개수의 절반이 1보다 작을 경우 1로, 10보다 큰 경우 10으로 고정합니다.
+* `prefer-pages` (기본값: false): 페이지 형식 만화로 다운로드받을 수 있을 때 페이지 형식으로 다운로드받습니다. 페이지 형식 만화만 있는 경우 이 옵션과 관계없이 페이지 형식으로 다운로드받습니다. 페이지 형식 만화가 없는 경우에도 영향을 미치지 않습니다.
 
 ## 카카오페이지
 
