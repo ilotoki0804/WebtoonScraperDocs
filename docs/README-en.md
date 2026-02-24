@@ -8,7 +8,7 @@ Download webtoons easily and quickly from various websites.
 
 WebtoonScraper lets you download webtoons easily and quickly from various websites. The app is supported on Windows and macOS, and a CLI environment is provided for Linux.
 
-With WebtoonScraper, you can download webtoons from **Naver Webtoon, Lezhin Comics, Kakao Webtoon, Kakaopage, webtoons.com, Ridibooks Webtoon, Toptoon, Bomtoon, Toomics, Bufftoon, Emanbae, TobeContinued, Jaedam Shorts, Naver Game Original, Naver Blog, and Tistory**. You can also use additional features like image concatenation and episode folder merging.
+With WebtoonScraper, you can download webtoons from **Naver Webtoon, Lezhin Comics, Kakao Webtoon, Kakaopage, webtoons.com, Ridibooks Webtoon, Toptoon, Bomtoon, Toomics, Bufftoon, Emanbae, TobeContinued, Jaedam Shorts, Naver Game Original, Naver Blog, Tistory, and Tapas**. You can also use additional features like image concatenation and episode folder merging.
 
 ## How to Use
 
