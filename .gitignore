@@ -1,3 +1,6 @@
 # My excludes
 _ignore*
 ._ignore*
+
+# macOS special file
+.DS_Store
