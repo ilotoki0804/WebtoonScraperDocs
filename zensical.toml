@@ -2,7 +2,7 @@
 site_name = "WebtoonScraper"
 site_description = "Download webtoons with ease."
 site_author = "ilotoki0804"
-site_url = "https://webtoonscraper.readthedocs.io/"
+site_url = "https://docs.wbtn.org/"
 repo_name = "WebtoonScraper"
 repo_url = "https://github.com/ilotoki0804/WebtoonScraper/"
 edit_uri = "ko/latest"
