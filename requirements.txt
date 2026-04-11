@@ -1,4 +1,10 @@
-mkdocs
-mkdocs-material
-mkautodoc
-markdown
+# uvx --with mkautodoc,zensical -p 3.14 pip freeze
+
+click==8.3.2
+deepmerge==2.0
+Markdown==3.10.2
+mkautodoc==0.2.0
+Pygments==2.20.0
+pymdown-extensions==10.21.2
+PyYAML==6.0.3
+zensical==0.0.32

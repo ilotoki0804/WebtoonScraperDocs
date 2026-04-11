@@ -4,3 +4,7 @@ _ignore*
 
 # macOS special file
 .DS_Store
+
+# build result
+site/
+.cache/
