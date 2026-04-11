@@ -9,6 +9,9 @@ build:
   tools:
     python: "3.14"
   jobs:
+    # 위에 있는 requirements를 이용한 방법은 어째선지 빌드하기 전에 설치를 안 함
+    install:
+      - pip install zensical mkautodoc
     build:
       html:
         - zensical build
