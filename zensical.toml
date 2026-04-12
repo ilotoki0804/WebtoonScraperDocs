@@ -175,6 +175,15 @@ features = [
     #"toc.integrate",
 ]
 
+# https://zensical.org/docs/authoring/admonitions/
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.superfences]
+
+[project.extra.analytics]
+provider = "google"
+property = "G-DVGGFG1P64"
+
 [[project.theme.palette]]
 scheme = "default"
 toggle.icon = "lucide/sun"
