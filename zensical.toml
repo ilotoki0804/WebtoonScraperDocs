@@ -26,6 +26,7 @@ nav = [
         { "웹툰 스냅샷" = "snapshot.md" },
     ] },
     { "기타" = [
+        { "이용약관 및 개인정보처리방침" = "terms.md" },
         { "English README" = "README-en.md" },
         { "저작권과 책임" = "copyright.md" },
         { "릴리즈 노트" = "releases.md" },
