@@ -1,6 +1,7 @@
 # 이용약관 및 개인정보처리방침
 
-신설일: 2026-04-22 (VERSION 1)
+신설일: 2026-05-01 (VERSION 1)
+수정일: 2026-05-03 (포매팅 변경; 본문 수정 없음)
 
 ## 이용약관
 
@@ -10,14 +11,12 @@
 * "WebtoonScraper 제품군" 혹은 "WebtoonScraper Software Suite"은 WebtoonScraper의 App, CLI 등 WebtoonScraper의 이름 하에 공개되는 소프트웨어나 개발자가 직접 운영하는 WebtoonScraper 제품을 소개하거나 관련된 내용을 다루는 웹사이트를 의미합니다. docs.wbtn.org가 이러한 사이트에 유일하게 해당됩니다. 단, WebtoonScraper PyPI와 GitHub 에디션은 포함되지 않습니다.
 * "WebtoonScraper 제품군의 사용" 혹은 "WebtoonScraper 제품군을 사용"하는 것은 WebtoonScraper 제품군을 다운로드받거나 어떤 방식으로든 사용하는 것을 의미합니다.
 
-### 2조. 약관
-
-### 3조. 약관의 동의
+### 2조. 약관의 동의
 
 WebtoonScraper 제품군을 사용하는 경우 이 약관과 개인정보처리방침에 동의한 것으로 간주합니다.
 별도의 명시적인 동의를 받을 수 있지만, 기본적으로는 명시적인 동의 여부와 관련없이 WebtoonScraper 제품군을 사용하는 경우 자동으로 동의한 것으로 봅니다.
 
-### 4조. 보증의 부인
+### 3조. 보증의 부인
 
 개발자는 소프트웨어를 '있는 그대로(AS-IS)' 제공하며, 사용자가 소프트웨어를 사용함에 따른 모든 결과에 대한 책임은 사용자에게 있습니다. 아래의 단락의 내용이 적용됩니다.
 
@@ -31,7 +30,7 @@ THE SOFTWARE.
 
 반대로, 개발자는 약관에 명시된 부분과 법적으로 자동으로 부여되는 권리 외에 WebtoonScraper 제품군의 사용을 제한하지 않습니다.
 
-### 5조. PyPI와 Github 에디션 및 docs.wbtn.org의 소스 코드
+### 4조. PyPI와 Github 에디션 및 docs.wbtn.org의 소스 코드
 
 WebtoonScraper PyPI와 Github 에디션은 이용 약관이 적용되지 않으며 대신 Apache License 2.0로 공개됩니다.
 [소스 코드][webtoonscraper-github]와 [PyPI 패키지][webtoonscraper-pypi]는 각각의 링크에서 확인하실 수 있습니다.
@@ -44,15 +43,15 @@ docs.wbtn.org의 [소스 코드][docs-source] 또한 이용 약관이 적용되�
 
 [docs-source]: https://github.com/ilotoki0804/WebtoonScraperDocs
 
-### 6조. 약관 위반 시 제한
+### 5조. 약관 위반 시 제한
 
 WebtoonScraper의 약관을 위배하는 경우 WebtoonScraper 제품군을 다운로드하거나 사용하는 것이 제한될 수 있습니다.
 
-### 7조. 약관의 변경
+### 6조. 약관의 변경
 
 약관은 사전 고지와 함께 변경될 수 있습니다. 약관이 변경될 예정일 경우 30일 전에 고지됩니다. 만약 약관에 동의하지 않으실 경우 더 이상 소프트웨어를 사용하지 않으실 수 있습니다.
 
-### 8조. 약관의 적용 범위
+### 7조. 약관의 적용 범위
 
 해당 약관은 2026년 4월 22일 이후 WebtoonScraper 제품군에 적용됩니다.
 
